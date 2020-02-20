@@ -6,11 +6,11 @@
     <Authors>Gibbed</Authors>
     <Description>http://gib.me/</Description>
     <Copyright>Copyright © Gibbed 2020</Copyright>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputPath>..\..\bin\</OutputPath>
-    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Gibbed.IO\Gibbed.IO.csproj" />

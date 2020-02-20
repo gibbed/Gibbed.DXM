@@ -103,7 +103,7 @@ namespace Gibbed.DXM.MakeDecalMod
 				outputPath = Path.Combine(outputParentPath, $"DXM-WindowsNoEditor_Decal_{outputName}_P.pak");
 			}
 
-			const Squish.Flags squishFlags = Squish.Flags.DXT5;
+			const Squish.Flags squishFlags = Squish.Flags.DXT5 | Squish.Flags.SourceBGRA;
 
 			int dxtTotalSize = 0;
 			for (int mipIndex = 10; mipIndex >= 0; mipIndex--)
