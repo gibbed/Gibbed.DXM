@@ -42,7 +42,7 @@ namespace Gibbed.DXM.MakeDecalMod
 
 		public static void Main(string[] args)
 		{
-			string decalId = "13";
+			string decalId = "12";
 			bool verbose = false;
 			bool showHelp = false;
 
